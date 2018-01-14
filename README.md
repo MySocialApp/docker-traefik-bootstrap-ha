@@ -1,4 +1,4 @@
-# Traefik bootstraping HA container
+# Traefik bootstraping HA container [![Docker Repository on Quay](https://quay.io/repository/mysocialapp/docker-traefik-bootstrap-ha/status "Docker Repository on Quay")](https://quay.io/repository/mysocialapp/docker-traefik-bootstrap-ha)
 
 This container has been made to help on the initialization of the traefik bootstrap in HA mode.
 
