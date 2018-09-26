@@ -1,7 +1,6 @@
-FROM traefik:v1.6.6-alpine
+FROM traefik:v1.7.0-alpine
 
-RUN apk update && apk add curl jq bash bind-tools && \
-    rm -rf /tmp/* /var/tmp/* /var/cache/apk/* /var/cache/distfiles/*
+RUN apk add -U --no-cache --purge curl jq bash bind-tools
 
 EXPOSE 80
 ENTRYPOINT ["/entrypoint.sh"]
