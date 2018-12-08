@@ -1,4 +1,4 @@
-FROM traefik:v1.7.3-alpine
+FROM traefik:v1.7.5-alpine
 
 RUN apk add -U --no-cache --purge curl jq bash bind-tools
 
